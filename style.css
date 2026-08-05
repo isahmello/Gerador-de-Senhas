@@ -2,10 +2,10 @@
 
 :root{
     --branco: white;
-    --cor-de-fundo: #00162E;
-    --fundo-senha: #00244D;
-    --fundo-texto: #001E40;
-    --borda: #0075FF;
+    --cor-de-fundo: #f808ec;
+    --fundo-senha: #c70eff;
+    --fundo-texto: #fd0add;
+    --borda: #f88be6;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
 }
@@ -106,6 +106,40 @@ body{
 label{
     font-size: 20px;
 }
+.barra{
+    height: 30px;
+    width: 100%;
+    background-color: var (--fundo-senha);
+    border: 1px solid var(--borda);
+}
+.fraca{
+height: 30px;
+width: 25%;
+background-color: rgb(122, 24, 7);
+position: relative;
+bottom: 30px;
+}
+
+.media{
+height: 30px;
+width: 50%;
+background-color: rgb(248, 250, 106);
+position: relative;
+bottom: 30px;
+}
+
+.forte{
+height: 30px;
+width: 100%;
+background-color: rgb(20, 122, 7);
+position: relative;
+bottom: 30px;
+}
+
+.parametro-senha-textos
+display: flex;
+justify-content: space-between;
+
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
         flex-direction: row;
