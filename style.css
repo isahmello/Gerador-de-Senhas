@@ -106,6 +106,13 @@ body{
 label{
     font-size: 20px;
 }
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
 .barra{
     height: 30px;
     width: 100%;
@@ -136,9 +143,10 @@ position: relative;
 bottom: 30px;
 }
 
-.parametro-senha-textos
-display: flex;
-justify-content: space-between;
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
+}
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
