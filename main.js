@@ -7,12 +7,13 @@ const botoes=document.querySelectorAll(parametro-senha_botao);//selecionando tod
 botoes[0].onclick=diminuiTamanho();
 botoes[1].onclick=aumentaTamanho();
 
-function diminuiTamanho() {
+function {
     if(tamanhoSenha<1){
 tamanhoSenha=tamanhoSenha-1;//diminui de 1 o valor do "tamanhoSenha"     
 tamanhoSenha--;
 }
 numeroSenha.textContent=tamanhoSenha;//atribui o valor do "tamanhoSenha" ao "numeroSenha"
+diminuiTamanho();
 }
 
 function aumentaTamanho() {
