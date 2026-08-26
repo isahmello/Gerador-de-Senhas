@@ -31,12 +31,13 @@ const campoSenha=document.querySelector(#campo-senha);
 const letrasMaiusculas='ABCDEFG';
 geraSenha();
 function geraSenha(){
+let senha ="";
 
-    for (let i = 0;i < tamanhoSenha; i++) {
-        
+    for (let i = 0;i < tamanhoSenha; i++) {    
 let numeroAleatorio = Math.random()*letrasMaiusculas.length;
 numeroAleatorio=Math.floor(numeroAleatorio);
 console.log(letrasMaiusculas[numeroAleatorio]);
+senha=senha+letrasMaiusculas[numeroAleatorio];
 }
 }
 campoSenha.value = letrasMaiusculas;
