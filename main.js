@@ -40,4 +40,4 @@ console.log(letrasMaiusculas[numeroAleatorio]);
 senha=senha+letrasMaiusculas[numeroAleatorio];
 }
 }
-campoSenha.value = letrasMaiusculas;
+campoSenha.value =senha;
