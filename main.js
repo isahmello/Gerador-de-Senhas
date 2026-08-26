@@ -29,6 +29,7 @@ numeroSenha.textContent=tamanhoSenha;//atribui o valor do "tamanhoSenha" ao "num
 
 const campoSenha=document.querySelector(#campo-senha);
 const letrasMaiusculas='ABCDEFG';
+
 geraSenha();
 function geraSenha(){
 let senha ="";
