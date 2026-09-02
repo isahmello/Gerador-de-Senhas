@@ -1,8 +1,8 @@
 const numeroSenha= document.querySelector('.parametro-_texto');
 let tamanhoSenha=12;//variavel que pode ser alterada
 
-botoes[0].onclick=diminuiTamanho();
-botoes[1].onclick=aumentaTamanho();
+botoes[0].onclick=diminuiTamanho;
+botoes[1].onclick=aumentaTamanho;
 
 
 numeroSenha.textContent=tamanhoSenha;//atribui o valor do "tamanhoSenha" ao "numeroSenha"
