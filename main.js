@@ -32,6 +32,7 @@ const campoSenha=document.querySelector(#campo-senha);
 const letrasMaiusculas='ABCDEFG';
 
 
+
 function geraSenha(){
 let senha = '';
 for (let i = 0; i < tamanhoSenha;i++){
