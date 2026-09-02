@@ -8,6 +8,10 @@ botoes[1].onclick=aumentaTamanho();
 numeroSenha.textContent=tamanhoSenha;//atribui o valor do "tamanhoSenha" ao "numeroSenha"
 const botoes=document.querySelectorAll(parametro-senha_botao);//selecionando todas as classse "parametro-senha_botao"
 
+const campoSenha=document.querySelector(#campo-senha);
+const letrasMaiusculas='ABCDEFG';
+
+
 
 function {
     if(tamanhoSenha<1){
@@ -27,9 +31,6 @@ function aumentaTamanho() {
 numeroSenha.textContent=tamanhoSenha;//atribui o valor do "tamanhoSenha" ao "numeroSenha"
 geraSenha();
 }
-
-const campoSenha=document.querySelector(#campo-senha);
-const letrasMaiusculas='ABCDEFG';
 
 
 
